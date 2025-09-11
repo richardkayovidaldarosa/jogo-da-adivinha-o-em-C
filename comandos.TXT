@@ -1,6 +1,6 @@
 *** Debug ***
-gcc <nomedoprograma.c>. -O <novonomeprograma.out>
-gcc jogoAdivinha.c -O jogoAdivinha.out
+gcc <nomedoprograma.c>. -o <novonomeprograma.out>
+gcc jogoAdivinha.c -o jogoAdivinha.out
 
 *** executar o arquivo .out ***
 ./<nomedoarquivo.out>
