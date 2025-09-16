@@ -17,7 +17,11 @@ int main(){
 
     printf("Qual é o seu chute? ");
     scanf("58", &chute);
-    printf("Seu chute")
+    printf("Seu chute foi 58\n", chute);
+       
+        printf("Parabéns! você acertou!");
+    CASO CONTRARIO
+    printf("Você errou!");
 
     
 }
