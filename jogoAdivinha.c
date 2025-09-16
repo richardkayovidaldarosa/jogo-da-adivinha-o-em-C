@@ -18,10 +18,22 @@ int main(){
     printf("Qual é o seu chute? ");
     scanf("58", &chute);
     printf("Seu chute foi 58\n", chute);
-       
-        printf("Parabéns! você acertou!");
-    CASO CONTRARIO
-    printf("Você errou!");
-
-    
+       if(chute == numerosecreto) {
+        printf("Parabéns! você acertou!\n");
+        printf("Jogue de novo, você é um bom jogador!")
+    }
+    else {
+        if(chute > numeroSecreto)  {
+            printf("Seu chute foi maior que o número secreto\n");
+        }
+         
+        if(chute < numeroSecreto) { 
+            printf("Seu chute foi menor que o numéro secreto\n")
+        }
+        
+        { 
+    printf("Você errou!\n");
+    printf("Mas não desanime,tente de novo!\n")
+    }
 }
+     
